@@ -1,0 +1,521 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FlasherLED" version="3">
+  <DEPS>
+    <ID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+    <COMPID name="FlasherLED" mc="SequenceDiagram" uid="5f8b8008-0229-4260-b4a2-ee29cdab777e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+    <PID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[FlasherLED]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d7d6548c-0390-4ec1-9367-61f59862ef86"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">165</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="executer()" mc="Message" uid="93e994b4-79e5-428f-9771-42d6d64a26a7"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[executer()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="a667e723-211d-4048-a3b7-8ddbad0872e6"/>
+                      <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="bb7d7a78-e185-48a3-9fb4-61328474561b"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="a667e723-211d-4048-a3b7-8ddbad0872e6"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">165</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="5d52ecb4-84e6-4042-b07f-56baa1809685"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="91058854-2f94-4fc1-b383-1eb9601efa3f"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="08539dbb-8c31-4984-ac19-c317f4ebf7e0"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">185</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="91058854-2f94-4fc1-b383-1eb9601efa3f"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="5d52ecb4-84e6-4042-b07f-56baa1809685"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">165</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="08539dbb-8c31-4984-ac19-c317f4ebf7e0"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="91058854-2f94-4fc1-b383-1eb9601efa3f"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="17a7c1ab-8619-41cd-9e32-c54afa098bf7"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">168</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="TicTac()" mc="Message" uid="9ed7f079-d896-42db-865f-8cedbed90670"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[TicTac()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="a10570c8-19d3-4b3b-b935-3d985e3f5065"/>
+                      <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="91058854-2f94-4fc1-b383-1eb9601efa3f"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="a10570c8-19d3-4b3b-b935-3d985e3f5065"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">168</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="586e6436-8b61-4239-b2cb-4c49547c24f8"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="2ba7c102-9d39-4e4c-bc79-ec6060f294c2"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="610601d1-6e08-442b-bf31-8c2778c5c5e7"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">188</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="2ba7c102-9d39-4e4c-bc79-ec6060f294c2"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="586e6436-8b61-4239-b2cb-4c49547c24f8"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">168</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="610601d1-6e08-442b-bf31-8c2778c5c5e7"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="2ba7c102-9d39-4e4c-bc79-ec6060f294c2"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="bf17aadd-9093-4dfe-9a13-000bce48e0ac"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">LoopOp</ATT>
+            <ATT name="LineNumber">106</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="2a709323-d417-4751-8831-017083154b7c"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[MMImpl.getEtatMarche()==true]]></ATT>
+                  <ATT name="EndLineNumber">300</ATT>
+                  <ATT name="LineNumber">106</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6c251cb7-5600-4c19-83c7-88e5e074d8b9"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">178</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="executer()" mc="Message" uid="6e4dbe23-658d-4bd0-811e-220ac62d34be"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[executer()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="b1d3315c-11da-41b3-9426-d57c4736d6a8"/>
+                      <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="2ba7c102-9d39-4e4c-bc79-ec6060f294c2"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="b1d3315c-11da-41b3-9426-d57c4736d6a8"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">178</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="13750e3d-8ee8-425d-b650-84c533bcd73e"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdMarquerTemps" mc="Lifeline" uid="4dc9a542-dca5-4fd0-b640-0e1a530fc853"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c66bf701-5414-442b-a66c-3a418811957c"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">198</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdMarquerTemps" mc="Lifeline" uid="4dc9a542-dca5-4fd0-b640-0e1a530fc853"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="13750e3d-8ee8-425d-b650-84c533bcd73e"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">178</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="c66bf701-5414-442b-a66c-3a418811957c"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdMarquerTemps" mc="Lifeline" uid="4dc9a542-dca5-4fd0-b640-0e1a530fc853"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6dc854bb-3352-4a06-bb9f-d0e87b3991a8"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">192</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="flasherLED(1)" mc="Message" uid="e0a234c3-98bb-4578-bebd-e90969a01ed8"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[flasherLED(1)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="e34c2992-faeb-44bd-898b-c3ef01e566f3"/>
+                      <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdMarquerTemps" mc="Lifeline" uid="4dc9a542-dca5-4fd0-b640-0e1a530fc853"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="e34c2992-faeb-44bd-898b-c3ef01e566f3"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">192</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="e653c3bb-fc47-47bf-9d0f-0e3ddce90ef5"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="IHM" mc="Lifeline" uid="e49714f4-7acf-47b7-8d86-051b3e738283"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="14837d92-3616-47d1-b28d-2a757e330c02"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">212</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="IHM" mc="Lifeline" uid="e49714f4-7acf-47b7-8d86-051b3e738283"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="e653c3bb-fc47-47bf-9d0f-0e3ddce90ef5"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">192</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="14837d92-3616-47d1-b28d-2a757e330c02"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="IHM" mc="Lifeline" uid="e49714f4-7acf-47b7-8d86-051b3e738283"/>
+                <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="Horloge" mc="Lifeline" uid="bb7d7a78-e185-48a3-9fb4-61328474561b"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Horloge]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="cmdTicTac" mc="Lifeline" uid="91058854-2f94-4fc1-b383-1eb9601efa3f"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[cmdTicTac]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MMImpl" mc="Lifeline" uid="2ba7c102-9d39-4e4c-bc79-ec6060f294c2"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[MMImpl]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="cmdMarquerTemps" mc="Lifeline" uid="4dc9a542-dca5-4fd0-b640-0e1a530fc853"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[cmdMarquerTemps]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="IHM" mc="Lifeline" uid="e49714f4-7acf-47b7-8d86-051b3e738283"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[IHM]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="18b1e7e1-8bea-484b-8480-47cd55e865f9"/>
+          <PID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="FlasherLED" mc="SequenceDiagram" uid="5f8b8008-0229-4260-b4a2-ee29cdab777e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,647 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AllumerEteindreLED" version="3">
+  <DEPS>
+    <ID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+    <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="c142bc2c-9c52-4c25-8b13-26a88d46350a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+    <PID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[AllumerEteindreLED]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c30c67b9-aa4f-4d75-a25b-318d53330ab6"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">84</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="flasher()" mc="Message" uid="3dc9f2a7-97b3-4a8d-8a48-9df16221e290"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[flasher()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="d3c94f7d-3bf9-439c-afc9-b4f0bf4bd803"/>
+                      <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="IHM" mc="Lifeline" uid="e3448737-50f7-413c-8ca5-dd0d3ede76f0"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d3c94f7d-3bf9-439c-afc9-b4f0bf4bd803"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">84</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="2309903a-32e2-47f2-99eb-4189c2974a3e"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="8bb7a9b7-9ed3-4a1e-8126-fd16259c3e09"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">104</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="2309903a-32e2-47f2-99eb-4189c2974a3e"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">84</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="8bb7a9b7-9ed3-4a1e-8126-fd16259c3e09"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6e2afae3-96f3-446e-b486-d333c1bf4637"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">91</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="setColor(couleur)" mc="Message" uid="74d13895-5d63-414c-973f-23626df71a1c"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[setColor(couleur)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="6e7601b1-3413-47ea-95b1-16f255819f5d"/>
+                      <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6e7601b1-3413-47ea-95b1-16f255819f5d"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">91</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="a3391dd8-1560-4b28-b6cf-329d69c0d82a"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="68791ab9-3cc4-42a3-be11-01369dc19ffa"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">111</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="a3391dd8-1560-4b28-b6cf-329d69c0d82a"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">91</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="68791ab9-3cc4-42a3-be11-01369dc19ffa"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="894048bb-e5fb-4c10-9c66-800b60a927f4"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">120</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="2f0c0b2c-6c27-40c2-9c95-62f2b438c574"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">120</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="IHM" mc="Lifeline" uid="e3448737-50f7-413c-8ca5-dd0d3ede76f0"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c59e1481-fadf-4904-9538-6f201f6e06d0"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">140</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="IHM" mc="Lifeline" uid="e3448737-50f7-413c-8ca5-dd0d3ede76f0"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c9ca0555-9869-4e46-8fb2-477256b86587"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">144</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="activerAprèsDelai(temps)" mc="Message" uid="d44bd568-c7e6-4f6a-846b-a437c49cc7d8"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[activerAprèsDelai(temps)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="c6e28dfa-7814-44d5-952a-fff49435b966"/>
+                      <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c6e28dfa-7814-44d5-952a-fff49435b966"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">144</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="fd2f3d0b-beef-4632-a846-760e665f1736"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="4ee54138-3e37-4ae4-ab40-716d55b28b2c"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c6abc563-21d2-4b58-9b9c-956658bc0ff9"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">164</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="4ee54138-3e37-4ae4-ab40-716d55b28b2c"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="fd2f3d0b-beef-4632-a846-760e665f1736"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">144</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="c6abc563-21d2-4b58-9b9c-956658bc0ff9"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="4ee54138-3e37-4ae4-ab40-716d55b28b2c"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="bfb89ab2-218c-4f20-8ae8-3a6605cc3243"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">222</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="eteindre()" mc="Message" uid="dd5f6203-ce91-4950-b6ad-45e8b2afb851"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[eteindre()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="44458e47-6559-48cf-892b-7efd9da1a4b6"/>
+                      <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="4ee54138-3e37-4ae4-ab40-716d55b28b2c"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="44458e47-6559-48cf-892b-7efd9da1a4b6"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">222</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="f84d3114-81ed-46a8-ab1e-0d341ac8c446"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="b5505892-79c4-46ba-b7a1-33c911c16611"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">301</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="f84d3114-81ed-46a8-ab1e-0d341ac8c446"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">222</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="b5505892-79c4-46ba-b7a1-33c911c16611"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="0e3119a8-9567-405e-af18-abecff00b879"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">269</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="setColor(black)" mc="Message" uid="466782d2-5f74-442c-a40c-4278be6b0bcb"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[setColor(black)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="e257073c-c67d-49f6-8722-07297cbbc249"/>
+                      <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="e257073c-c67d-49f6-8722-07297cbbc249"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">269</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="465d2070-a4da-4831-b323-be133c54f5c0"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="7ee0e621-0e32-47f7-b40d-a234daf790a2"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">289</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="465d2070-a4da-4831-b323-be133c54f5c0"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">269</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="7ee0e621-0e32-47f7-b40d-a234daf790a2"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+                <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="IHM" mc="Lifeline" uid="e3448737-50f7-413c-8ca5-dd0d3ede76f0"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[IHM]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="LED" mc="Lifeline" uid="22287c3b-2dbf-47b9-97fd-de5058f83988"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[LED]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="JLabel" mc="Lifeline" uid="eb13bb44-8c78-4875-975d-a70fb0196471"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[JLabel]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="cmdEteindre" mc="Lifeline" uid="5cfe9fe2-a0e7-406f-a330-d5bae80e8b29"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[cmdEteindre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Horloge" mc="Lifeline" uid="4ee54138-3e37-4ae4-ab40-716d55b28b2c"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Horloge]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="75daa845-0cec-4d86-8003-ec7d5175b5ba"/>
+          <PID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="c142bc2c-9c52-4c25-8b13-26a88d46350a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

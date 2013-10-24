@@ -1,0 +1,587 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="réglageTempo" version="3">
+  <DEPS>
+    <ID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+    <COMPID name="RéglageTempo" mc="SequenceDiagram" uid="4b45977c-0ddf-41b4-a81a-94e30670cbc8"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+    <PID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[réglageTempo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c8df3d68-54ba-4461-924f-583c927d7c5c"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">104</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="nouvelleValeur(valeur)" mc="Message" uid="ea892951-5f1e-4b55-ac2a-643ee360a753"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[nouvelleValeur(valeur)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="c14a5288-c30d-4b13-865e-79490f44adee"/>
+                      <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Molette" mc="Lifeline" uid="af26baa8-2ca7-4063-b7fc-a372b043eeb8"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="25af7376-f1b5-46d3-91b4-da3338a0bbb5"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">104</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Afficheur" mc="Lifeline" uid="f5d7666b-e8ee-46c6-a883-863814e68dca"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="0ccdb4b8-7511-441c-8a25-fd44c917b92b"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">124</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Afficheur" mc="Lifeline" uid="f5d7666b-e8ee-46c6-a883-863814e68dca"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="cf330850-4d10-4652-917e-89406076e749"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">124</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Molette" mc="Lifeline" uid="af26baa8-2ca7-4063-b7fc-a372b043eeb8"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="1c297fad-2c6d-4a88-a298-ceb5db9b9614"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">95</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Molette" mc="Lifeline" uid="af26baa8-2ca7-4063-b7fc-a372b043eeb8"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="371c08ff-2aa0-4f32-89dc-82571d9e40f4"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">95</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="cb20a57b-cefd-47a4-9588-8b440059f661"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">148</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="9eca348d-30d3-4649-a27b-bf678384e290"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">148</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Molette" mc="Lifeline" uid="af26baa8-2ca7-4063-b7fc-a372b043eeb8"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c14a5288-c30d-4b13-865e-79490f44adee"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">104</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="b24cd168-a471-42ff-b0e7-1eb126fdbabc"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="9728bbb7-8d6a-4da8-a393-589eff2e7af0"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">125</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="b24cd168-a471-42ff-b0e7-1eb126fdbabc"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">104</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="9728bbb7-8d6a-4da8-a393-589eff2e7af0"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c5a2646a-1c42-41b6-8836-4e61d60b60a9"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">123</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="setTempo(temps)" mc="Message" uid="0af85812-70ea-4e48-b411-d8e9d464f594"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[setTempo(temps)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="ed48d213-5467-4936-b1f8-d3058ff4e5b2"/>
+                      <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ed48d213-5467-4936-b1f8-d3058ff4e5b2"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">123</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="8a168854-da27-42a9-acc4-5a411c441ce1"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="b1f37cf6-501a-435f-adb8-425651751ba6"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="842915d8-a779-492a-9615-61513ad246c2"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">176</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="updateTempo(temps)" mc="Message" uid="fa6652db-fac6-4faf-95d4-4c4d6e9e4606"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[updateTempo(temps)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="d66a4eff-4c2a-4d07-a798-796155f13f0c"/>
+                      <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="b1f37cf6-501a-435f-adb8-425651751ba6"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="8a168854-da27-42a9-acc4-5a411c441ce1"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">123</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="842915d8-a779-492a-9615-61513ad246c2"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="b1f37cf6-501a-435f-adb8-425651751ba6"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d66a4eff-4c2a-4d07-a798-796155f13f0c"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">176</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="c6800c03-ae5b-4515-b700-ef6d99aad7d8"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="df86767c-5f61-497d-a1ad-6123bfe05a57"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">196</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="c6800c03-ae5b-4515-b700-ef6d99aad7d8"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">176</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="df86767c-5f61-497d-a1ad-6123bfe05a57"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ad5b1e7a-4b1f-4dc3-a166-eed3e70916a3"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">239</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="setText(temps)" mc="Message" uid="d1cec6ad-8435-4f32-93a9-50c9b761ff64"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[setText(temps)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="82f5ecfa-3737-4041-a328-3f566d926da6"/>
+                      <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="82f5ecfa-3737-4041-a328-3f566d926da6"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">239</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="08421597-6f21-48dc-83a4-b13ea4aeb198"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Afficheur" mc="Lifeline" uid="f5d7666b-e8ee-46c6-a883-863814e68dca"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6df5419e-4b46-4f18-9f6b-2225f337d210"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">259</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Afficheur" mc="Lifeline" uid="f5d7666b-e8ee-46c6-a883-863814e68dca"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="08421597-6f21-48dc-83a4-b13ea4aeb198"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">239</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="6df5419e-4b46-4f18-9f6b-2225f337d210"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Afficheur" mc="Lifeline" uid="f5d7666b-e8ee-46c6-a883-863814e68dca"/>
+                <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="Molette" mc="Lifeline" uid="af26baa8-2ca7-4063-b7fc-a372b043eeb8"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Molette]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Afficheur" mc="Lifeline" uid="f5d7666b-e8ee-46c6-a883-863814e68dca"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Afficheur]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Controleur" mc="Lifeline" uid="78eefee3-b679-4c53-9141-a62b86613f13"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Controleur]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MMImpl" mc="Lifeline" uid="b1f37cf6-501a-435f-adb8-425651751ba6"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[MMImpl]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="42cdedf1-6379-4cbd-ad1e-2b67b89e9a05"/>
+          <PID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="RéglageTempo" mc="SequenceDiagram" uid="4b45977c-0ddf-41b4-a81a-94e30670cbc8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

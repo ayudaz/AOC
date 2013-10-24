@@ -1,0 +1,553 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TicTac" version="3">
+  <DEPS>
+    <ID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+    <COMPID name="TicTac" mc="SequenceDiagram" uid="b18e4785-74b4-4f14-9f10-19317e4dea62"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+    <PID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[TicTac]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="9f750270-7b85-47a0-b3e4-44cc5a581261"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">90</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="create()" mc="Message" uid="6d3755a3-31f4-452d-b0e8-d34156d55207"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[create()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="c68b127c-d844-4c9b-94b3-56330cef3dcd"/>
+                      <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c68b127c-d844-4c9b-94b3-56330cef3dcd"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">90</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="e25054e9-689c-44b3-9fff-05d05185a5fa"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d1d2b01e-cc6a-43c1-8146-b193b1d1e7af"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">110</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="e3fddec7-703f-4baf-8348-42d76f7b7d21"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="85b55185-6a3d-483f-b72f-2923e03a5638"/>
+                      <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="e25054e9-689c-44b3-9fff-05d05185a5fa"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">90</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="d1d2b01e-cc6a-43c1-8146-b193b1d1e7af"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="85b55185-6a3d-483f-b72f-2923e03a5638"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">110</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="175a68d1-5217-40d5-bbfc-968a95fac88f"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">152</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="activerPeriodiquement(temps)" mc="Message" uid="01a1a659-5836-4534-bdf7-b8f20efba7b1"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[activerPeriodiquement(temps)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="af46b08a-d853-4bff-b26d-6fb6a11550a9"/>
+                      <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="af46b08a-d853-4bff-b26d-6fb6a11550a9"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">152</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="a4a9115b-6d0b-46e9-9b46-94238d70a115"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="afac0e52-feeb-4cee-b0d4-93448e87c78f"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="7403ee63-6708-467c-9486-a8087293d9b4"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">172</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="afac0e52-feeb-4cee-b0d4-93448e87c78f"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="a4a9115b-6d0b-46e9-9b46-94238d70a115"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">152</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="7403ee63-6708-467c-9486-a8087293d9b4"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="afac0e52-feeb-4cee-b0d4-93448e87c78f"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="ae794822-7458-4f41-93eb-bacd254405cc"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">LoopOp</ATT>
+            <ATT name="LineNumber">226</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="65439ba0-032c-416f-b1e4-3844c444ca96"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[MMImpl.getEtatMarche()==true]]></ATT>
+                  <ATT name="EndLineNumber">351</ATT>
+                  <ATT name="LineNumber">226</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="afac0e52-feeb-4cee-b0d4-93448e87c78f"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="163d1ee6-5e82-4a81-bd15-791bc0528a8d"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">278</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="execute()" mc="Message" uid="9f6c9109-f6c7-43b5-a614-b3ab9b2684f8"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[execute()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="cac453e0-9f43-4b46-b78d-73d0d5955375"/>
+                      <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Horloge" mc="Lifeline" uid="afac0e52-feeb-4cee-b0d4-93448e87c78f"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="cac453e0-9f43-4b46-b78d-73d0d5955375"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">278</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="4311a2e3-16a0-4866-ac8e-6ee686b86c5a"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="91a6ac3b-8b19-42cb-bca5-0c316f642140"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">305</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="4311a2e3-16a0-4866-ac8e-6ee686b86c5a"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">278</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="91a6ac3b-8b19-42cb-bca5-0c316f642140"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="eeb9f27f-bd89-40a9-998b-0489f306ea20"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">294</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="tictac()" mc="Message" uid="79c5305e-5a9d-4748-84ab-fce76983e04e"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[tictac()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="19146f53-c93a-4d5b-b40a-1368c4af6d2c"/>
+                      <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="19146f53-c93a-4d5b-b40a-1368c4af6d2c"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">294</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="69d73bc4-dddb-4a8b-9ea6-139ec5fb90c7"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="222a964f-6fc5-43e9-b12e-a85f159fd4d2"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">314</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="69d73bc4-dddb-4a8b-9ea6-139ec5fb90c7"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">294</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="222a964f-6fc5-43e9-b12e-a85f159fd4d2"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+                <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="MMImpl" mc="Lifeline" uid="27f4be74-147e-40fe-ae5d-36eade7e2b33"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[MMImpl]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="cmdTicTac" mc="Lifeline" uid="20cc9443-20f1-4978-915c-e0557bd61e55"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[cmdTicTac]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Horloge" mc="Lifeline" uid="afac0e52-feeb-4cee-b0d4-93448e87c78f"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Horloge]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="9957eb7f-c6b1-4dbd-a8e0-ec4baa36afe3"/>
+          <PID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="TicTac" mc="SequenceDiagram" uid="b18e4785-74b4-4f14-9f10-19317e4dea62"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
