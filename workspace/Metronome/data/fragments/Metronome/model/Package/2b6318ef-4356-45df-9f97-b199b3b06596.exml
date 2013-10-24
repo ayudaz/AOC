@@ -2,7 +2,9 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="metronome" version="3">
   <DEPS>
     <ID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+    <COMPID name="boutonStart" mc="Interaction" uid="7164ecd4-4bcb-4309-a6b0-befedd9c7d7d"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="68c58129-fa37-4c1e-81ae-ca8da34c3dc5"/>
+    <COMPID name="reglageTempo" mc="Interaction" uid="a39c4da9-5f5c-4d5b-a55f-c86bb80b8ac4"/>
   </DEPS>
   <OBJECT>
     <ID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
@@ -17,6 +19,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="boutonStart" mc="Interaction" uid="7164ecd4-4bcb-4309-a6b0-befedd9c7d7d"/>
+        <COMPID name="reglageTempo" mc="Interaction" uid="a39c4da9-5f5c-4d5b-a55f-c86bb80b8ac4"/>
+      </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="68c58129-fa37-4c1e-81ae-ca8da34c3dc5"/>
       </COMP>
