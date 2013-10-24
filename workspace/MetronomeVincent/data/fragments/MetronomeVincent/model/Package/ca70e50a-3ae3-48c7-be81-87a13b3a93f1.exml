@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="metronomevincent" version="3">
+  <DEPS>
+    <ID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="99c5b9ba-632b-4225-89ee-288fa06f8b6d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <PID name="MetronomeVincent" mc="Project" uid="914816df-581c-4a2f-a584-f57a371524aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[metronomevincent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="99c5b9ba-632b-4225-89ee-288fa06f8b6d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

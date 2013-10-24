@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MetronomeVincent" version="3">
+  <DEPS>
+    <ID name="MetronomeVincent" mc="AnalystProject" uid="00a24a98-cabc-4dcb-a632-2ea7d677ef4e"/>
+    <COMPID name="MetronomeVincent" mc="PropertyContainer" uid="4f562dfd-dbc8-4207-b891-9836d8d2bd35"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="MetronomeVincent" mc="AnalystProject" uid="00a24a98-cabc-4dcb-a632-2ea7d677ef4e"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MetronomeVincent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="MetronomeVincent" mc="PropertyContainer" uid="4f562dfd-dbc8-4207-b891-9836d8d2bd35"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
