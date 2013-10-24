@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Metronome" version="3">
+  <DEPS>
+    <ID name="Metronome" mc="Project" uid="85b20a1e-2441-4ea8-835c-59729f08b8cc"/>
+    <COMPID name="Metronome" mc="DiagramSet" uid="592e7ff4-05a0-4949-ae19-2d02a7c9c3af"/>
+    <COMPID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Metronome" mc="Project" uid="85b20a1e-2441-4ea8-835c-59729f08b8cc"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Metronome]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Metronome" mc="DiagramSet" uid="592e7ff4-05a0-4949-ae19-2d02a7c9c3af"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
