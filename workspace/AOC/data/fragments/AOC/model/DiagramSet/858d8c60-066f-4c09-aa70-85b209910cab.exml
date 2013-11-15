@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AOC" version="3">
+  <DEPS>
+    <ID name="AOC" mc="DiagramSet" uid="858d8c60-066f-4c09-aa70-85b209910cab"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="AOC" mc="DiagramSet" uid="858d8c60-066f-4c09-aa70-85b209910cab"/>
+    <PID name="AOC" mc="Project" uid="ecc913ae-f38f-4b1f-aa50-c18e168212a1"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[AOC]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CA" version="3">
+  <DEPS>
+    <ID name="CA" mc="Class" uid="f5066002-fb81-4271-ae9d-98166ccc5341"/>
+    <EXTID name="Aptitude" mc="Class" uid="f1c7ccf6-5885-45d8-a9d0-cba436ee7b23"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CA" mc="Class" uid="f5066002-fb81-4271-ae9d-98166ccc5341"/>
+    <PID name="aoc" mc="Package" uid="a321cd11-41ee-40cd-b096-c1a4935bdc56"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="b1be4df1-00d1-4c0f-a2f0-be3d88143a81"/>
+          <PID name="CA" mc="Class" uid="f5066002-fb81-4271-ae9d-98166ccc5341"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Aptitude" mc="Class" uid="f1c7ccf6-5885-45d8-a9d0-cba436ee7b23"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

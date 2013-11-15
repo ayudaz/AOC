@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FPT" version="3">
+  <DEPS>
+    <ID name="FPT" mc="Class" uid="c413eedc-b0c8-4799-86db-355a09f2a137"/>
+    <EXTID name="Vehicule" mc="Class" uid="b794e6de-ff9e-4895-b06a-0a42f1a81ce2"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="FPT" mc="Class" uid="c413eedc-b0c8-4799-86db-355a09f2a137"/>
+    <PID name="aoc" mc="Package" uid="a321cd11-41ee-40cd-b096-c1a4935bdc56"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[FPT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="e40af7f4-4d60-4117-8766-7079d5950cc7"/>
+          <PID name="FPT" mc="Class" uid="c413eedc-b0c8-4799-86db-355a09f2a137"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Vehicule" mc="Class" uid="b794e6de-ff9e-4895-b06a-0a42f1a81ce2"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

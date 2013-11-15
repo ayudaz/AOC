@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Command MarquerTempo" version="3">
+  <DEPS>
+    <ID name="Command MarquerTempo" mc="ClassDiagram" uid="49db834e-8e6e-4bac-a47c-6f67de932e1d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Command MarquerTempo" mc="ClassDiagram" uid="49db834e-8e6e-4bac-a47c-6f67de932e1d"/>
+    <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJyNUVlPwkAQ/iubvrdcDUdS4AGMIYIaMb6aaXfAhT1wd4r037u1VCPGhqfuTOe7ZpLpSUl2ROuE0eOgE7UDNp0kD+kOM2KC+1bAqDjgODB2GynDUQoTcQFbCypCLsjYyBGQ2EcoUaEmV9VZPXSr1l/1vKoDpmBn7Ou3aDuYJI/WHNBSwTQoryWhMDnNgcD/ewGZ49mEzqUMWpOkVQP+QNdUSAx+Reg2RXDlvIsyYzGqsFf4m4HLgCOvxW5O9ISbK1XuPcUZyfBE83ThPX49ywfHDeSSLkK2qjhNwS1KIOTex8XOVmWLHcuOdy7BufMlWDzi6bAXYzjEPoZxClkI8SAL+5v+gOOo18UOb962Z6M7bT70ElKUF8JrskJvf6SNUqA5W4F9z9E+ozqYZnZrJC60xx2ME+SP0SzQTDZ7E5JbLDmWwpWrPH/+RSyF3ruG8foonwQxJcM=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Command MarquerTempo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

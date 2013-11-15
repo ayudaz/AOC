@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Intervention" version="3">
+  <DEPS>
+    <ID name="Intervention" mc="Class" uid="f47ca9ff-6415-4015-a537-5a2714d1c549"/>
+    <EXTID name="TypeIntervention" mc="Class" uid="a5f189d9-169d-46df-9629-bb85a0d7707a"/>
+    <EXTID name="Vehicule" mc="Class" uid="b794e6de-ff9e-4895-b06a-0a42f1a81ce2"/>
+    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Intervention" mc="Class" uid="f47ca9ff-6415-4015-a537-5a2714d1c549"/>
+    <PID name="aoc" mc="Package" uid="a321cd11-41ee-40cd-b096-c1a4935bdc56"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Intervention]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="Adresse" mc="Attribute" uid="021df6cc-12ce-47fe-b69b-3ba156f2f143"/>
+          <PID name="Intervention" mc="Class" uid="f47ca9ff-6415-4015-a537-5a2714d1c549"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Adresse]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="vehicules" mc="AssociationEnd" uid="74ce40de-0969-43db-889e-9517114e666b"/>
+          <PID name="Vehicule" mc="Class" uid="b794e6de-ff9e-4895-b06a-0a42f1a81ce2"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="type" mc="AssociationEnd" uid="6903bce6-e4b5-4a0b-b88c-64cadb27a71c"/>
+          <PID name="TypeIntervention" mc="Class" uid="a5f189d9-169d-46df-9629-bb85a0d7707a"/>
+        </REFOBJ>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

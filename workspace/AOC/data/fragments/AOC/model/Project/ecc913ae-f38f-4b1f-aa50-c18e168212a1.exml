@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AOC" version="3">
+  <DEPS>
+    <ID name="AOC" mc="Project" uid="ecc913ae-f38f-4b1f-aa50-c18e168212a1"/>
+    <COMPID name="AOC" mc="DiagramSet" uid="858d8c60-066f-4c09-aa70-85b209910cab"/>
+    <COMPID name="aoc" mc="Package" uid="a321cd11-41ee-40cd-b096-c1a4935bdc56"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="AOC" mc="Project" uid="ecc913ae-f38f-4b1f-aa50-c18e168212a1"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[AOC]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="AOC" mc="DiagramSet" uid="858d8c60-066f-4c09-aa70-85b209910cab"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="aoc" mc="Package" uid="a321cd11-41ee-40cd-b096-c1a4935bdc56"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

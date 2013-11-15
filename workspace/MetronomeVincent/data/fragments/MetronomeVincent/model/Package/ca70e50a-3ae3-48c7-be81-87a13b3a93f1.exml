@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="metronomevincent" version="3">
+  <DEPS>
+    <ID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <COMPID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+    <COMPID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+    <COMPID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="99c5b9ba-632b-4225-89ee-288fa06f8b6d"/>
+    <COMPID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+    <COMPID name="startBouton" mc="Interaction" uid="2e631e78-3e71-4b01-9c8c-07236b212f07"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="metronomevincent" mc="Package" uid="ca70e50a-3ae3-48c7-be81-87a13b3a93f1"/>
+    <PID name="MetronomeVincent" mc="Project" uid="914816df-581c-4a2f-a584-f57a371524aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[metronomevincent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="startBouton" mc="Interaction" uid="2e631e78-3e71-4b01-9c8c-07236b212f07"/>
+        <COMPID name="réglageTempo" mc="Interaction" uid="f017cf09-a319-4c79-a03b-102f9c33b46c"/>
+        <COMPID name="TicTac" mc="Interaction" uid="a0b3bad8-f731-4898-b006-d58623303342"/>
+        <COMPID name="FlasherLED" mc="Interaction" uid="4005499d-10e6-4732-8136-62125d7eb8cb"/>
+        <COMPID name="AllumerEteindreLED" mc="Interaction" uid="544ac47a-18ca-485b-9ca5-3224b0eeaed6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="99c5b9ba-632b-4225-89ee-288fa06f8b6d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

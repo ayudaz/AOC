@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AOC" version="3">
+  <DEPS>
+    <ID name="AOC" mc="AnalystProject" uid="44de4689-c5c5-4696-8a4f-4a5c8784cb87"/>
+    <COMPID name="AOC" mc="PropertyContainer" uid="1d3ba5fa-6a91-48e8-9767-c356ff3ff8a7"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="AOC" mc="AnalystProject" uid="44de4689-c5c5-4696-8a4f-4a5c8784cb87"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[AOC]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="AOC" mc="PropertyContainer" uid="1d3ba5fa-6a91-48e8-9767-c356ff3ff8a7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
