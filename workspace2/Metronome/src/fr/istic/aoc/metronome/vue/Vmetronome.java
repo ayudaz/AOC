@@ -20,7 +20,7 @@ public class Vmetronome extends JFrame {
 		getContentPane().setBackground(Color.gray);
 
 		init();
-		
+		setSize(300, 300);
 		setVisible(true);
 		setLocationRelativeTo(getParent());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -28,6 +28,9 @@ public class Vmetronome extends JFrame {
 	
 	public void init()
 	{
+		Slider slider = new Slider();
+		add(slider, BorderLayout.WEST);
+		
 		Ecran ecran = new Ecran();
 		add(ecran, BorderLayout.CENTER);
 		
