@@ -46,7 +46,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="moteurMetronome" mc="AssociationEnd" uid="7bd7958e-c856-4c46-8a1d-259d786d8fb8"/>
+          <ID name="moteurMetronome" mc="AssociationEnd" uid="850e28b9-a36e-4a1b-98d6-c883435abca5"/>
           <PID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
@@ -69,7 +69,7 @@
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="AssociationEnd" uid="cd669989-7e2d-480d-b8a5-5c41a56a2c06"/>
+                <ID name="" mc="AssociationEnd" uid="0995f116-eb32-466a-a506-90f79b75c7d3"/>
                 <PID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
@@ -88,11 +88,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="moteurMetronome" mc="AssociationEnd" uid="7bd7958e-c856-4c46-8a1d-259d786d8fb8"/>
+                    <COMPID name="moteurMetronome" mc="AssociationEnd" uid="850e28b9-a36e-4a1b-98d6-c883435abca5"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Association" uid="82c8beca-b74c-421e-8192-18b6d7a4ffc0"/>
+                      <ID name="" mc="Association" uid="d386be12-1b79-4180-92d8-bd3f236cadec"/>
                       <PID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
@@ -106,7 +106,7 @@
             </COMP>
             <COMP relation="Association">
               <OBJECT>
-                <ID name="" mc="Association" uid="82c8beca-b74c-421e-8192-18b6d7a4ffc0"/>
+                <ID name="" mc="Association" uid="d386be12-1b79-4180-92d8-bd3f236cadec"/>
                 <PID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>

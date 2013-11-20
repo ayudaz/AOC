@@ -4,7 +4,6 @@
     <ID name="Interaction" mc="Interaction" uid="fc6701cc-8b98-4e0c-90fc-241910d05e18"/>
     <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="d37b2524-caa1-4a05-9ebe-9537ca936e1a"/>
     <EXTID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
-    <EXTID name="IHM" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
     <EXTID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
     <EXTID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
   </DEPS>
@@ -501,12 +500,6 @@
                     <REFOBJ>
                       <ID name="" mc="ExecutionOccurenceSpecification" uid="a664e02c-2f40-4290-a538-ea6917f1a588"/>
                       <PID name="Interaction" mc="Interaction" uid="fc6701cc-8b98-4e0c-90fc-241910d05e18"/>
-                    </REFOBJ>
-                  </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="marquerTemps" mc="Operation" uid="71bbdc0c-67b5-45ae-bb3a-55e9da301ff0"/>
-                      <PID name="IHM" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>

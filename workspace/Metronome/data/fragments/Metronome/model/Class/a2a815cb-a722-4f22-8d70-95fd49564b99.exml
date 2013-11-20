@@ -3,7 +3,7 @@
   <DEPS>
     <ID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
     <EXTID name="Command" mc="Interface" uid="aaea8f90-52a7-4a74-b19b-032442e6ae69"/>
-    <EXTID name="MoteurMetronome" mc="Interface" uid="5d729668-25d2-442a-99ba-2d03d60ccb8d"/>
+    <EXTID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
   </DEPS>
   <OBJECT>
     <ID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
@@ -46,7 +46,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="moteurMetronome" mc="AssociationEnd" uid="a47ccf56-15d8-4163-9477-c649c42f922a"/>
+          <ID name="controleur" mc="AssociationEnd" uid="d62f3778-d6ad-49db-92f3-fad594fff403"/>
           <PID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
@@ -60,16 +60,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[moteurMetronome]]></ATT>
+            <ATT name="Name"><![CDATA[controleur]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="MoteurMetronome" mc="Interface" uid="5d729668-25d2-442a-99ba-2d03d60ccb8d"/>
+              <ID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="AssociationEnd" uid="46915c2f-51a8-478c-a11f-d9fb701643d8"/>
+                <ID name="" mc="AssociationEnd" uid="e61ebc4c-f732-4f0c-a19d-3d85a416426b"/>
                 <PID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
@@ -78,7 +78,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -88,11 +88,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="moteurMetronome" mc="AssociationEnd" uid="a47ccf56-15d8-4163-9477-c649c42f922a"/>
+                    <COMPID name="controleur" mc="AssociationEnd" uid="d62f3778-d6ad-49db-92f3-fad594fff403"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Association" uid="17c53ef2-32bc-4aa8-a6a3-6c3ee85ed323"/>
+                      <ID name="" mc="Association" uid="74e2c07d-fdeb-4273-9717-5e7f0c578937"/>
                       <PID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
@@ -106,7 +106,7 @@
             </COMP>
             <COMP relation="Association">
               <OBJECT>
-                <ID name="" mc="Association" uid="17c53ef2-32bc-4aa8-a6a3-6c3ee85ed323"/>
+                <ID name="" mc="Association" uid="74e2c07d-fdeb-4273-9717-5e7f0c578937"/>
                 <PID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>

@@ -7,10 +7,13 @@
     <COMPID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
     <COMPID name="Command" mc="Interface" uid="aaea8f90-52a7-4a74-b19b-032442e6ae69"/>
     <COMPID name="Command MarquerTempo" mc="ClassDiagram" uid="49db834e-8e6e-4bac-a47c-6f67de932e1d"/>
+    <COMPID name="Command MarquerTemps" mc="ClassDiagram" uid="18576ad6-f545-483f-ab50-9d5ec0ba5e66"/>
     <COMPID name="Command TicTac" mc="ClassDiagram" uid="212460c1-f858-487c-ac79-0928d4513c3a"/>
-    <COMPID name="Controleur" mc="Class" uid="9e3b4135-babc-4984-9532-472dec33a399"/>
+    <COMPID name="Controleur" mc="Class" uid="e0e25880-87d6-46d8-8827-d5f2cd59d247"/>
+    <COMPID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
     <COMPID name="Horloge" mc="Class" uid="88e4a528-5ffb-4335-a96c-e75df469d269"/>
-    <COMPID name="IHM" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
+    <COMPID name="IHM" mc="Interface" uid="a6eecb4b-4ccb-4cdd-8203-0504bee1c9cc"/>
+    <COMPID name="IHMImpl" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
     <COMPID name="IHMObserveur" mc="Interface" uid="333cc2e5-d27f-44b0-a76c-991accb8e851"/>
     <COMPID name="Interaction" mc="Interaction" uid="fc6701cc-8b98-4e0c-90fc-241910d05e18"/>
     <COMPID name="MoteurMetronome" mc="Interface" uid="5d729668-25d2-442a-99ba-2d03d60ccb8d"/>
@@ -21,13 +24,15 @@
     <COMPID name="SujetIHM" mc="Class" uid="f390606f-1c20-4452-9ffe-db7008c2e422"/>
     <COMPID name="SujetMoteur" mc="Class" uid="a3b014db-bab5-44bd-9475-45e92259352a"/>
     <COMPID name="V1 Complet" mc="ClassDiagram" uid="43bb0ede-1fe1-42ff-bace-8cf00ca7178d"/>
+    <EXTID name="CmdMarquerTempo" mc="Class" uid="c6c4d6f9-4612-441f-985c-187ea16d1c91"/>
     <EXTID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
     <EXTID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
     <EXTID name="Command" mc="Interface" uid="aaea8f90-52a7-4a74-b19b-032442e6ae69"/>
-    <EXTID name="Controleur" mc="Class" uid="9e3b4135-babc-4984-9532-472dec33a399"/>
+    <EXTID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
     <EXTID name="Horloge" mc="Class" uid="88e4a528-5ffb-4335-a96c-e75df469d269"/>
-    <EXTID name="IHM" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
+    <EXTID name="IHMImpl" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
     <EXTID name="IHMObserveur" mc="Interface" uid="333cc2e5-d27f-44b0-a76c-991accb8e851"/>
+    <EXTID name="MoteurMetronome" mc="Interface" uid="5d729668-25d2-442a-99ba-2d03d60ccb8d"/>
     <EXTID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
     <EXTID name="MoteurObserveur" mc="Interface" uid="c6e73bbe-1b98-493d-b665-e39750ff93ba"/>
     <EXTID name="SujetIHM" mc="Class" uid="f390606f-1c20-4452-9ffe-db7008c2e422"/>
@@ -109,10 +114,9 @@
         <COMPID name="CmdTicTac" mc="Class" uid="422cbb11-fa0a-4c11-b313-a5bfe0c251dd"/>
         <COMPID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
         <COMPID name="CmdMarquerTempo" mc="Class" uid="c6c4d6f9-4612-441f-985c-187ea16d1c91"/>
-        <COMPID name="Controleur" mc="Class" uid="9e3b4135-babc-4984-9532-472dec33a399"/>
         <COMPID name="IHMObserveur" mc="Interface" uid="333cc2e5-d27f-44b0-a76c-991accb8e851"/>
         <COMPID name="MoteurObserveur" mc="Interface" uid="c6e73bbe-1b98-493d-b665-e39750ff93ba"/>
-        <COMPID name="IHM" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
+        <COMPID name="IHMImpl" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
         <OBJECT>
           <ID name="Observer" mc="Collaboration" uid="8e9f2b17-3585-49d3-b80a-192962dfd1a9"/>
           <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
@@ -138,7 +142,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="DependsOn">
-                    <ID name="IHM" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
+                    <ID name="IHMImpl" mc="Class" uid="2e0c82eb-b52d-4c43-8829-b108ef8b479b"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -169,21 +173,6 @@
                 <DEPENDENCIES>
                   <LINK relation="DependsOn">
                     <ID name="IHMObserveur" mc="Interface" uid="333cc2e5-d27f-44b0-a76c-991accb8e851"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="ConcreteObserver" mc="Dependency" uid="dec75e58-e393-45fe-8b25-449b0a3c7d5a"/>
-                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
-                <ATTRIBUTES>
-                  <ATT name="DependsOnId"></ATT>
-                  <ATT name="DependsOnName"></ATT>
-                  <ATT name="Name"><![CDATA[ConcreteObserver]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="DependsOn">
-                    <ID name="Controleur" mc="Class" uid="9e3b4135-babc-4984-9532-472dec33a399"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -251,21 +240,6 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
-              <OBJECT>
-                <ID name="ConcreteObserver" mc="Dependency" uid="d3dcb5ef-00b8-4a1c-b98f-b155521c4be8"/>
-                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
-                <ATTRIBUTES>
-                  <ATT name="DependsOnId"></ATT>
-                  <ATT name="DependsOnName"></ATT>
-                  <ATT name="Name"><![CDATA[ConcreteObserver]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="DependsOn">
-                    <ID name="Controleur" mc="Class" uid="9e3b4135-babc-4984-9532-472dec33a399"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
@@ -324,7 +298,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="DependsOn">
-                    <ID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
+                    <ID name="MoteurMetronome" mc="Interface" uid="5d729668-25d2-442a-99ba-2d03d60ccb8d"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -362,6 +336,193 @@
           </DEPENDENCIES>
         </OBJECT>
         <COMPID name="Horloge" mc="Class" uid="88e4a528-5ffb-4335-a96c-e75df469d269"/>
+        <OBJECT>
+          <ID name="Command" mc="Collaboration" uid="ab83aa0d-332d-42d2-b378-cb2dcbd52e88"/>
+          <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Command]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="ConcreteCommand" mc="Dependency" uid="97f946e4-9c95-4bb0-b3a2-f98c97387e08"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[ConcreteCommand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="CmdMarquerTempo" mc="Class" uid="c6c4d6f9-4612-441f-985c-187ea16d1c91"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Command" mc="Dependency" uid="2fb016f7-83ad-4a5d-8b12-3ee498ea3c8a"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Command]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="Command" mc="Interface" uid="aaea8f90-52a7-4a74-b19b-032442e6ae69"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Receiver" mc="Dependency" uid="ac7c9f7b-422c-48cf-8ae9-545dfd9eba69"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Receiver]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Client" mc="Dependency" uid="cd55757b-a654-4612-9b54-755ee91a83e5"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Client]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Invoker" mc="Dependency" uid="b2d0ee83-77e7-4655-9e3d-2b10747ce5aa"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Invoker]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
+        <OBJECT>
+          <ID name="Command" mc="Collaboration" uid="c6c66609-8ab1-416b-9654-5e8aaf8e2f20"/>
+          <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Command]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="Command" mc="Dependency" uid="95fd6ac4-f2dd-4498-b067-0326c6fcbfad"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Command]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="Command" mc="Interface" uid="aaea8f90-52a7-4a74-b19b-032442e6ae69"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ConcreteCommand" mc="Dependency" uid="b7a08c98-c30b-4ddd-8928-2d5b18d73b6c"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[ConcreteCommand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="CmdMarquerTemps" mc="Class" uid="a2a815cb-a722-4f22-8d70-95fd49564b99"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Receiver" mc="Dependency" uid="8cf1c785-a68e-4c39-b9b4-550ce993329d"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Receiver]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="Controleur" mc="Interface" uid="fe04f760-9ce5-4cce-8804-a3ed5407480f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Invoker" mc="Dependency" uid="3a2085cf-6ad9-4664-afee-f5be94b4e2a3"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Invoker]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Client" mc="Dependency" uid="a8b0b087-26e4-4f13-944b-2031d4ba0b1a"/>
+                <PID name="metronome" mc="Package" uid="2b6318ef-4356-45df-9f97-b199b3b06596"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"><![CDATA[Client]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="MoteurMetronomeImpl" mc="Class" uid="5c57b129-fc74-4ca5-87a4-ed39ef4dccef"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="IHM" mc="Interface" uid="a6eecb4b-4ccb-4cdd-8203-0504bee1c9cc"/>
+        <COMPID name="Controleur" mc="Class" uid="e0e25880-87d6-46d8-8827-d5f2cd59d247"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="V1 Complet" mc="ClassDiagram" uid="43bb0ede-1fe1-42ff-bace-8cf00ca7178d"/>
@@ -369,6 +530,7 @@
         <COMPID name="Observer Moteur" mc="ClassDiagram" uid="ea9580bd-c27c-4962-9f00-7beb345ad8a5"/>
         <COMPID name="Command TicTac" mc="ClassDiagram" uid="212460c1-f858-487c-ac79-0928d4513c3a"/>
         <COMPID name="Command MarquerTempo" mc="ClassDiagram" uid="49db834e-8e6e-4bac-a47c-6f67de932e1d"/>
+        <COMPID name="Command MarquerTemps" mc="ClassDiagram" uid="18576ad6-f545-483f-ab50-9d5ec0ba5e66"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
